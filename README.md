@@ -9,8 +9,8 @@ above any supported field. All parameters are optional.
  
 All class fields & properties can be read/written through `getUIBridge()` in Settings.java, `setValue`s will automatically populate each field with the passed Object.
 
-CLASS REGISTRATION ->
-After creating an instance (`Settings.createInstance("{save_file_name}");`, register classes with @Save Annotations through `register()`.
+**CLASS REGISTRATION** ->
+After creating an instance `Settings.createInstance("{save_file_name}");`, register classes with @Save Annotations through `register()`.
 
 Known Issues:
 - Unsupported field types
